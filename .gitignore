@@ -1,0 +1,6 @@
+lib/*
+ivy/*
+reports/*
+build/*
+.idea
+*.iml

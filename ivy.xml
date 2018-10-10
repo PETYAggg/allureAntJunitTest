@@ -1,0 +1,23 @@
+<ivy-module version="1.0">
+    <info organisation="ru.yandex.qatools.allure" module="allure-testng-ant"/>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/ru.yandex.qatools.allure/allure-junit-adaptor -->
+        <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-junit4-aspect -->
+        <dependency org="io.qameta.allure" name="allure-junit4-aspect" rev="2.7.0"/>
+
+
+
+        <dependency org="org.aspectj" name="aspectjweaver" rev="1.9.1"/>
+
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency org="junit" name="junit" rev="4.12"/>
+
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency org="org.slf4j" name="slf4j-api" rev="1.6.1"/>
+
+
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+        <dependency org="org.slf4j" name="slf4j-simple" rev="1.6.1"/>
+
+    </dependencies>
+</ivy-module>
