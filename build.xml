@@ -41,7 +41,7 @@
         <mkdir dir="${build.compile}"/>
         <mkdir dir="${build.test-compile}"/>
         <mkdir dir="${build.report}"/>
-        <delete dir="allure-results" />
+
     </target>
 
     <target name="compile" depends="init" description="Compile the source">
@@ -93,6 +93,7 @@
 
     <target name="clean" description="Clean up">
         <delete dir="${build}"/>
+        <delete dir="allure-results" />
     </target>
 
     <target name="run" depends="clean,test" description="Do the entire lifecycle"/>
